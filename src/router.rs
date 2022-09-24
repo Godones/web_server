@@ -6,6 +6,7 @@ use std::io::prelude::*;
 pub struct Router;
 
 impl Router {
+    /// route various request
     pub fn route(req: HttpRequest, stream: &mut impl Write) -> () {
         match req.method {
             Method::Get => match &req.resource {

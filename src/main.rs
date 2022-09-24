@@ -1,4 +1,6 @@
 use crate::server::Server;
+use simplelog::*;
+use std::fs::File;
 
 mod handler;
 mod log;
@@ -9,7 +11,20 @@ mod router;
 mod server;
 
 fn main() {
-    log4rs::init_file("./log4rs.yaml", Default::default()).unwrap();
+    CombinedLogger::init(vec![
+        TermLogger::new(
+            LevelFilter::Info,
+            Config::default(),
+            TerminalMode::Mixed,
+            ColorChoice::Auto,
+        ),
+        WriteLogger::new(
+            LevelFilter::Info,
+            Config::default(),
+            File::create("log/web.log").unwrap(),
+        ),
+    ])
+    .unwrap();
     let server = Server::new("localhost:8888");
     server.run();
 }

@@ -9,6 +9,7 @@ pub struct LogInfo<'a> {
     file_size: usize,
     content: &'a [u8],
 }
+
 impl ToString for LogInfo<'_> {
     fn to_string(&self) -> String {
         let content = String::from_utf8(self.content.to_vec()).unwrap();
