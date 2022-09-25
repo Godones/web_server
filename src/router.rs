@@ -13,16 +13,11 @@ impl Router {
         let ip = stream.local_addr().unwrap().ip().to_string();
         match &req.method {
             Method::Get|Method::Post => match &req.resource {
-                Resource::Path(s) => {
-                    let route: Vec<&str> = s.split("/").collect();
-                    match route[1] {
-                        _ => {
-                            let resp: HttpResponse = StaticPageHandler::handle(&req);
-                            let _ = resp.send_response(stream);
-                            // 将相关信息写入日志文件
-                            info!("{}", Record::from(&req, &resp, ip));
-                        }
-                    }
+                Resource::Path(_) => {
+                    let resp: HttpResponse = StaticPageHandler::handle(&req);
+                    let _ = resp.send_response(stream);
+                    // 将相关信息写入日志文件
+                    info!("{}", Record::from(&req, &resp, ip));
                 }
             },
             _ => {

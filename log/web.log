@@ -1,9 +1,4 @@
-[INFO] 127.0.0.1--[25/Sep/2022:13:29:54] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:29:56] POST /cgi-bin/calculator.py 1.1 200 27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:29:56] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:29:59] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:30:01] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:30:01] GET /query.html 1.1 200 773 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:30:01] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:30:03] POST /cgi-bin/query.py 1.1 200 143 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[25/Sep/2022:13:30:03] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:17:17:26] GET /calculator.html 1.1 200 http://127.0.0.1:8888/ /calculator.html 481 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:17:17:26] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/calculator.html /favicon.ico 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:17:17:30] POST /cgi-bin/calculator.py 1.1 200 http://127.0.0.1:8888/calculator.html /cgi-bin/calculator.py 31 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:17:17:30] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/cgi-bin/calculator.py /favicon.ico 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36

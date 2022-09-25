@@ -9,13 +9,15 @@ impl Record {
     pub fn from(request: &HttpRequest, response: &HttpResponse, ip: String) -> String {
         let time = Local::now().format("%d/%b/%Y:%H:%M:%S").to_string();
         format!(
-            "{}--[{}] {} {} {} {} {} {}",
+            "{}--[{}] {} {} {} {} {} {} {} {}",
             ip,
             time,
             request.method.to_string(),
             request.resource.to_string(),
             request.version.to_string(),
             response.status_code(),
+            request.headers.get("Referer").unwrap(),
+            request.resource.to_string(),
             response.body().len(),
             request
                 .headers

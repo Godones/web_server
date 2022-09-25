@@ -31,7 +31,6 @@ pub trait Handler {
         args.iter().for_each(|arg|{
             file_name = format!("{} {}",file_name,arg);
         });
-        println!("command: {}",file_name);
         //执行cgi程序得到结果返回
         let mut command = Command::new("sh");
         command.arg("-c")
@@ -40,13 +39,10 @@ pub trait Handler {
         let out = String::from_utf8(out.stdout).unwrap();
 
 
-        let mut lines: Vec<&str> = out.split('\n').collect();
+        let lines: Vec<&str> = out.splitn(3,'\n').collect();
         assert_eq!(lines[0], "Content-type:text/html");
-        let lines: Vec<&str> = lines.drain(2..).collect();
-        let mut ans = String::new();
-        lines.iter().for_each(|&s| ans.push_str(s));
-        println!("out: {}",ans);
-        Some(ans)
+        // println!("out: {}",lines[2]);
+        Some(lines[2].to_string())
     }
     fn args_from_body(request:&HttpRequest)->Vec<String>{
         let content_length = request.headers
