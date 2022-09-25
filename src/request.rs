@@ -16,10 +16,29 @@ impl From<&str> for Method {
         }
     }
 }
+impl ToString for Method {
+    fn to_string(&self) -> String {
+        match self {
+            Method::Get => "GET".to_string(),
+            Method::Post => "POST".to_string(),
+            Method::Uninitialized => "UNKNOWN".to_string(),
+        }
+    }
+}
+
 #[derive(Debug, PartialEq)]
 pub enum Version {
     V1_1,
     Uninitialized,
+}
+
+impl ToString for Version {
+    fn to_string(&self) -> String {
+        match self {
+            Version::V1_1 => "1.1".to_string(),
+            Version::Uninitialized => "unknown".to_string(),
+        }
+    }
 }
 
 impl From<&str> for Version {
@@ -33,6 +52,13 @@ impl From<&str> for Version {
 #[derive(Debug, PartialEq)]
 pub enum Resource {
     Path(String),
+}
+impl ToString for Resource {
+    fn to_string(&self) -> String {
+        match self {
+            Resource::Path(s) => s.to_string(),
+        }
+    }
 }
 
 #[derive(Debug)]
@@ -95,7 +121,7 @@ fn process_header_line(s: &str) -> (String, String) {
         key = k.to_string();
     }
     if let Some(v) = header_items.next() {
-        value = v.to_string();
+        value = v.trim().to_string();
     }
     (key, value)
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息查询</title>
+</head>
+<body>
+
+<form method="post" action="/cgi-bin/upload.py">
+  <table>
+    <tr><td>学号 </td><td><input type=text name=student_id><td></tr>
+    <tr><td>姓名</td><td> <input type=text name=student_name></td></tr>
+    <tr><td>班级</td><td> <input type=text name=student_class></td></tr>
+    </td></tr>
+    <tr><td><input type=submit value=提交></td><td> </td></tr>
+  </table>
+</form>
+
+<form method="post" action="/cgi-bin/query.py">
+  <table>
+    <tr><td>学号 </td><td><input type=text name=student_id><td></tr>
+    </td></tr>
+    <tr><td><input type=submit value=查询></td><td> </td></tr>
+  </table>
+</form>
+
+
+</body>
+</html>

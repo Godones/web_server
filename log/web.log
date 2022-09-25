@@ -1,9 +1,9 @@
-04:55:31 [INFO] Running on localhost:8888
-04:55:33 [INFO] Connection established
-04:55:35 [INFO] Connection established
-04:55:35 [INFO] path: ./404.html
-04:55:35 [INFO] Connection established
-04:55:35 [INFO] path: ./404.html
-04:55:35 [INFO] Connection established
-04:55:35 [INFO] Connection established
-04:55:35 [INFO] path: ./404.html
+[INFO] 127.0.0.1--[25/Sep/2022:13:29:54] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:29:56] POST /cgi-bin/calculator.py 1.1 200 27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:29:56] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:29:59] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:30:01] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:30:01] GET /query.html 1.1 200 773 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:30:01] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:30:03] POST /cgi-bin/query.py 1.1 200 143 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[25/Sep/2022:13:30:03] GET /favicon.ico 1.1 200 197 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
