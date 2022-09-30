@@ -37,11 +37,8 @@ pub trait Handler {
             .arg(format!("python3 {}",file_name));
         let out = command.output().expect("failed to execute process");
         let out = String::from_utf8(out.stdout).unwrap();
-
-
         let lines: Vec<&str> = out.splitn(3,'\n').collect();
         assert_eq!(lines[0], "Content-type:text/html");
-        // println!("out: {}",lines[2]);
         Some(lines[2].to_string())
     }
     fn args_from_body(request:&HttpRequest)->Vec<String>{
@@ -91,7 +88,6 @@ impl Handler for StaticPageHandler {
                     } else if s.ends_with(".js") {
                         map.insert("Content-Type", "text/javascript");
                     } else if s.ends_with(".jpg") {
-                        println!("load img from disk");
                         map.insert("Content-type","image/jpeg");
                     } else {
                         map.insert("Content-Type", "text/html");

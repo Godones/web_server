@@ -29,11 +29,7 @@ print("<head>")
 print("<meta charset=\"UTF-8\">")
 print("<title>上传</title>")
 print("</head>")
-
 print("<body>")
-
 print("<h1>学生信息已上传</h1>")
-
-
 print("</body>")
 
