@@ -1,6 +1,30 @@
-[INFO] 127.0.0.1--[30/Sep/2022:14:58:37] GET / 1.1 200 unknown / 529 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[30/Sep/2022:14:58:37] GET /css/index.css 1.1 200 http://127.0.0.1:8888/ /css/index.css 1960 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[30/Sep/2022:14:58:37] GET /css/img/brige.jpg 1.1 200 http://127.0.0.1:8888/ /css/img/brige.jpg 10498388 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[30/Sep/2022:14:58:38] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/ /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[30/Sep/2022:14:58:44] GET /in 1.1 200 unknown /in 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-[INFO] 127.0.0.1--[30/Sep/2022:14:58:44] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/in /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:46] GET / 1.1 200 unknown / 529 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:46] GET /css/index.css 1.1 200 http://127.0.0.1:8888/ /css/index.css 1960 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:46] GET /css/img/brige.jpg 1.1 200 http://127.0.0.1:8888/ /css/img/brige.jpg 10498388 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:48] UNKNOWN  1.1 404 unknown  196 unknown
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:48] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/ /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:52] GET /calculator.html 1.1 200 http://127.0.0.1:8888/ /calculator.html 481 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:52] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/calculator.html /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:55] POST /cgi-bin/calculator.py 1.1 200 http://127.0.0.1:8888/calculator.html /cgi-bin/calculator.py 34 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:55] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/cgi-bin/calculator.py /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:57] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/calculator.html /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:58] UNKNOWN  1.1 404 unknown  196 unknown
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:59] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/ /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:59] GET /query.html 1.1 200 http://127.0.0.1:8888/ /query.html 773 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:35:59] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/query.html /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:17] POST /cgi-bin/upload.py 1.1 200 http://127.0.0.1:8888/query.html /cgi-bin/upload.py 129 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:17] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/cgi-bin/upload.py /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:18] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/query.html /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:23] POST /cgi-bin/query.py 1.1 200 http://127.0.0.1:8888/query.html /cgi-bin/query.py 130 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:23] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/cgi-bin/query.py /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:24] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/query.html /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:32] POST /cgi-bin/query.py 1.1 200 http://127.0.0.1:8888/query.html /cgi-bin/query.py 154 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:32] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/cgi-bin/query.py /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:33] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/query.html /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:35] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/ /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:38] UNKNOWN  1.1 404 unknown  196 unknown
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:45] GET /sss 1.1 200 unknown /sss 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:45] GET /sss 1.1 200 unknown /sss 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:45] GET /favicon.ico 1.1 200 http://127.0.0.1:8888/sss /favicon.ico 196 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:48] UNKNOWN  1.1 404 unknown  196 unknown
+[INFO] 127.0.0.1--[30/Sep/2022:15:36:48] UNKNOWN  1.1 404 unknown  196 unknown

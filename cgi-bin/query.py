@@ -1,7 +1,9 @@
+# -*- coding: UTF-8 -*-
 import sys
 import sqlite3
 
 print("Content-type:text/html")
+print("陈林峰")
 print()
 
 argv = sys.argv[1:]
