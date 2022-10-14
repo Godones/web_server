@@ -114,7 +114,7 @@ fn process_req_line(s: &str) -> (Method, Resource, Version) {
     )
 }
 fn process_header_line(s: &str) -> (String, String) {
-    let mut header_items = s.splitn(2,":");
+    let mut header_items = s.splitn(2, ":");
     let mut key = String::from("");
     let mut value = String::from("");
     if let Some(k) = header_items.next() {

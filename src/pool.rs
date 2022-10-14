@@ -5,9 +5,7 @@ pub struct ThreadPool {
     workers: Vec<Worker>,
     sender: mpsc::Sender<Message>,
 }
-
 type Job = Box<dyn FnOnce() + Send + 'static>;
-
 enum Message {
     NewJob(Job),
     Terminate,
@@ -76,7 +74,6 @@ impl Worker {
                 }
             }
         });
-
         Worker {
             id,
             thread: Some(thread),

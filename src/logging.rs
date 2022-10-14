@@ -41,7 +41,6 @@ static LOGGER: OnceCell<SimpleLogger> = OnceCell::new();
 pub fn init(file_name: Option<&str>) {
     let logger = SimpleLogger::new(file_name);
     LOGGER.set(logger).expect("init log error");
-    // let logger = LOGGER.get().unwrap();
     log::set_logger(LOGGER.get().unwrap()).unwrap();
     log::set_max_level(match option_env!("LOG") {
         Some("ERROR") => LevelFilter::Error,

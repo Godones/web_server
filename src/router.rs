@@ -5,7 +5,6 @@ use crate::response::HttpResponse;
 use log::info;
 use std::net::TcpStream;
 
-
 pub struct Router;
 
 impl Router {
@@ -13,7 +12,7 @@ impl Router {
     pub fn route(req: HttpRequest, stream: &mut TcpStream) -> () {
         let ip = stream.local_addr().unwrap().ip().to_string();
         match &req.method {
-            Method::Get|Method::Post => match &req.resource {
+            Method::Get | Method::Post => match &req.resource {
                 Resource::Path(_) => {
                     let resp: HttpResponse = StaticPageHandler::handle(&req);
                     let _ = resp.send_response(stream);

@@ -16,7 +16,10 @@ impl Record {
             request.resource.to_string(),
             request.version.to_string(),
             response.status_code(),
-            request.headers.get("Referer").unwrap_or(&"unknown".to_string()),
+            request
+                .headers
+                .get("Referer")
+                .unwrap_or(&"unknown".to_string()),
             request.resource.to_string(),
             response.body().len(),
             request
